@@ -3,7 +3,11 @@
   <head>
     <title>Meeting Minutes</title>
     <meta name="description" content="CSE 110 Lab Week 2: Meeting Minutes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="./images/m.png">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
@@ -14,9 +18,9 @@
         </header>
       <nav class="menu">
         <ul>
-          <li><a href="#">Earth</a></li>
-          <li><a href="#">Wind</a></li>
-          <li><a href="#">Fire</a></li>
+          <li class="ewflist"><a href="#">Earth</a></li>
+          <li class="ewflist"><a href="#">Wind</a></li>
+          <li class="ewflist"><a href="#">Fire</a></li>
         </ul>
       </nav>
         <section>
@@ -66,8 +70,9 @@
             </ol>
         </section>
 
-        <section>
-            <h3>THE SCRIBE IS A BIG NERD</h3>
+        <section id="nerdsection">
+            <h3 id="nerd">THE SCRIBE IS A BIG NERD (WE HAD TO USE THE ABSOLUTE UNIT OF INCHES BECAUSE HES JUST THAT BIG OF A NERD) (ALSO WE LEARNED HOW TO DO MEDIA QUERIES TRY MAKING YOUR SCREEN SMALL!!)</h3>
+            
             <p>PROOF OF SCRIBE BEING A NERD:</p>
             <p>Actually, I feel bad for being mean to the scribe. I know he's just doing his job. Instead, here is a cat video.</p>
             <video width="320" height="240" controls>
@@ -83,13 +88,17 @@
 
         <footer>
                 <h3>Previous Meeting Minutes</h3>
-                <nav>
-                  <ul>
-                    <li><a href="#">That one time</a></li>
-                    <li><a href="#">Yeah and that other time when</a></li>
-                    <li><a href="#">21st night of September 2020<br></a></li>
-                  </ul>
-                </nav>
+                <div>
+                  <nav>
+                    <ul id="othermeetings">
+                      <li><a href="#">That one time</a></li>
+                      <li><a href="#">Yeah and that other time when</a></li>
+                      <li><a href="#">21st night of September 2020<br></a></li>
+                      <li><a href="#">Joint meeting with Mcdonald's Corp to promote our album and their burger at the same time<br></a></li>
+                      
+                    </ul>
+                  </nav>
+              </div>
         </footer>
 
         <hr>
